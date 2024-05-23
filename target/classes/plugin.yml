@@ -1,0 +1,6 @@
+name: CordeAnarchyLoot
+version: '1.0'
+main: net.meltarion.cordeanarchyloot.CordeAnarchyLoot
+api-version: '1.20'
+commands:
+  cordeanarchyloot: {}

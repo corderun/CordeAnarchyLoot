@@ -1,0 +1,20 @@
+messages:
+  broadcast: "&c&lMeltarion &fНа локации &c%sbName% &fпоявятся сундуки на координатах &c%sbCoords%"
+  broadcast-time-left: "&c&lMeltarion &fЧерез &c%time% &fминут окроются сундуки в локации &c%sbName% &fна координатах &c%sbCoords%"
+  lootboxes-open: "&c&lMeltarion &fСундуки открыты на локации &c%sbName% &7(%sbCoords%)"
+#Начало по МСК открытия мистиков
+time-start-hour: 10
+#Конец по МСК открытия мистиков
+time-end-hour: 22
+hour-respawn: 3
+time-protection: 15
+locations:
+  dp:
+    name: "Дирижабль"
+    coords: "0 100 0"
+    commands:
+      - 'lc respawn dp1'
+      - 'lc respawn dp2'
+      - 'lc respawn dp3'
+      - 'lc respawn dp4'
+      - 'lc respawn dp5'
