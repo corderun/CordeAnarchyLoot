@@ -8,6 +8,10 @@ time-start-hour: 10
 time-end-hour: 22
 hour-respawn: 3
 time-protection: 15
+mystic-regions:
+  - TestProverka
+  - Asd
+glow-duration: 30
 locations:
   dp:
     name: "Дирижабль"

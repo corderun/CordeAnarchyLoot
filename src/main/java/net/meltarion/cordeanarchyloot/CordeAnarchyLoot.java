@@ -26,6 +26,7 @@ public final class CordeAnarchyLoot extends JavaPlugin {
         this.expansion.register();
         this.expansion.setNextBroadcastSeconds(3600);
         expansion.initializeTimePlaceholder();
+        getServer().getPluginManager().registerEvents(new EventListener(this), this);
     }
 
     void scheduleRespawnTask() {
